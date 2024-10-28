@@ -1,33 +1,104 @@
 <!DOCTYPE html>
-<html lang="sl">
+<html lang="slo" dir="ltr">
 
 <head>
+    <title>Arduino projekt</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moja spletna stran</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            color: #333;
-            text-align: center;
-            padding: 20px;
-        }
-
-        h1 {
-            color: #0077cc;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 1.2em;
-            margin-bottom: 10px;
-        }
-    </style>
+    <meta name="description" content="Arduino projekt">
+    <meta name="keyword" content="Arduino">
+    <meta name="author" content="Tian Jovanovič">
+    <meta name="viewport" content="widht=deice-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>Naslov polepša stran :)</h1>
-    <p>Tu lahko kaj napišete, ali pa tudi ne.</p>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="slike/1.jpg"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Uvodna stran</a></li>
+                    <li><a href="arduino.html">O Arduinu</a></li>
+                    <li><a href="">Elekrtonski elementi</a>
+                        <div class="sub-menu1">
+                            <ul>
+                                <li><a href="protoboard.html">Protoboard(testna plošča)</a></li>
+                                <li><a href="dioda.html">LED dioda</a></li>
+                                <li><a href="upor.html">Upor</a></li>
+                                <li><a href="fotoupor.html">Fotoupor</a></li>
+                                <li><a href="stikalo.html">Stikalo s tipko</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="blockly_program.html">Blockly@rduino</a></li>
+                    <li><a href="">Arduino projekt</a>
+                        <div class="sub-menu1">
+                            <ul>
+                                <li><a href="arduino_projekt.html">Opis projekta</a></li>
+                                <li><a href="uporabljeni_elementi.html">Uporabljeni elektronski elementi</a></li>
+                                <li><a href="izVedba_projekta.html">Izvedba izdelave projekta</a></li>
+                                <li><a href="uporabnost_projekta.html">Uporabnost projekta</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="text-box">
+            <h1>Koma-L-nik</h1>
+            <p>To je projekt dveh zelo bistrih dijakov gimnazije Ledina (Tiana Jovaniča in Anžeta Fegeša)<br>
+                ki sta s pomočjo najnovejše tehnologije naredila ultimativni lovec komarjev.</p>
+
+        </div>
+        <div>
+        </div>
+    </section>
+    <section class="arduino">
+        <h1>Arduino</h1><br><br><br><br><br><br>
+        <p><b>"You don't need anyone's permission to create something great".</b></p>
+        <p id="1">Massimo Banzi, Co-Fouder of Arduino</p>
+
+        <div class="row">
+            <div class="arduino-col">
+                <h3>Zabaven</h3>
+                <p>Arduino je lahko zelo zabaven še posebej če nisi omejen z eno stvarjo, ki jo moraš narediti. Ima
+                    velik nabor stvari , ki jih z njim lahko narediš oziroma ustvariš.
+                    Lahko narediš majhen a delujoč semafor ali pa (kot midva) past za komarje možnosti so skoraj
+                    neskončne.</p>
+            </div>
+            <div class="arduino-col">
+                <h3>Zanimiv</h3>
+                <p>Arduino pa je lahko tudi zelo zanimiv. Še posebaj če te zanimajo take stvari kot so programiranje,
+                    tehnologija, računalništvo... z Arduinom se lahko naučiš osnov, ki
+                    jih kaseje lahko preneseš na bolj kompleksne in težje stvari oziroma mikrokrmilnike.</p>
+            </div>
+            <div class="arduino-col">
+                <h3>Poučen</h3>
+                <p>Arduino je lahko tudi zelo poučen, nauči te osnov električnega kroga, upora, protoboarda in drugih
+                    stvari, ki spadajo k osnovam Arduina. Naučiš se tudi osnov programirjanja
+                    s pomočjo programa Blockly@rduino, ki je primeren za usakega začetnika, saj uporablja prilagojene
+                    bloke za začetnike.</p>
+            </div>
+        </div>
+        <div class="row1">
+            <div class="slike">
+                <a href="index.html"><img src="slike/9.png" height="250px" lenght="250px"></a>
+            </div>
+            <div class="slike">
+                <a href="index.html"><img src="slike/8.jpg" height="250px" lenght="250px"></a>
+            </div>
+            <div class="slike">
+                <a href="index.html"><img src="slike/10.png" height="250px" lenght="250px"></a>
+            </div>
+        </div><br><br><br><br><br><br><br><br><br>
+    </section>
 </body>
 
 </html>

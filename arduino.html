@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Arduino projekt</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Arduino projekt">
+		<meta name="keyword" content="Arduino">
+		<meta name="author" content="Tian Jovanovič">
+		<meta name="viewport" content="widht=deice-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<section class="header">
+			<nav>
+				<a href="index.html"><img src="slike/2.jpg"></a>
+				<div class="nav-links">
+					<ul>
+						<li><a href="index.html">Uvodna stran</a></li>
+						<li><a href="arduino.html">O Arduinu</a></li>
+						<li><a href="">Elekrtonski elementi</a>
+							<div class="sub-menu1">
+								<ul>
+									<li><a href="protoboard.html">Protoboard(testna plošča)</a></li>
+									<li><a href="dioda.html">LED dioda</a></li>
+									<li><a href="upor.html">Upor</a></li>
+									<li><a href="fotoupor.html">Fotoupor</a></li>
+									<li><a href="stikalo.html">Stikalo s tipko</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="blockly_program.html">Blockly@rduino</a></li>
+						<li><a href="">Arduino projekt</a>
+							<div class="sub-menu1">
+								<ul>
+									<li><a href="arduino_projekt.html">Opis projekta</a></li>
+									<li><a href="uporabljeni_elementi.html">Uporabljeni elektronski elementi</a></li>
+									<li><a href="izVedba_projekta.html">Izvedba izdelave projekta</a></li>
+									<li><a href="uporabnost_projekta.html">Uporabnost projekta</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="text-box">
+				<h1>Koma-L-nik</h1>
+				<p>To je projekt dveh zelo bistrih dijakov gimnazije Ledina (Tiana Jovaniča in Anžeta Fegeša)<br> 
+				ki sta s pomočjo najnovejše tehnologije naredila ultimativni lovec komarjev.</p>
+				</div>
+		</section>
+		<br><br><br>
+		<section>
+			<div class="12">
+				<h2>Zgodovina Arduina</h2>
+				<p>Arduino je mikrokrmilnik na matični plošči, ki je zasnovan tako, da bi bil postopek z uporabo elektronike v multidisciplinarnih projektih, bolj dostopen.
+				Začetki Arduina segajo v davno leto 2005.<br> Ime nosi po kralju Arduinu iz Ivree (Piemont, Italija), kjer je bil tudi zasnovan. Samo ime naj bi pomenilo “močan prijatelj”.
+				Prva verzija je imela še serijski priključek, (DE9) vsi ostali modeli pa so že bili opremljeni z USB priključkom. Poznamo več vrst Arduinov:
+				<a href="https://en.wikipedia.org/wiki/Arduino_Uno" target="_blank">Arduino Uno</a>, Arduni Mega, 
+				<a href="https://en.wikipedia.org/wiki/Arduino_Nano" target="_blank">Arduino Nano</a>, Arduino Leonardo in še mnoge druge.</p>
+			</div>
+			<a href="https://en.wikipedia.org/wiki/Arduino" target="_blank">
+				<img src="slike/19.png" width="750" height="500">
+			</a>
+				<div class="12">
+					<h2>Strojna oprema</h2>
+					<p>Strojna oprema Arduina temelji na Atmelovem čipu AVR ATmega 328P. To je 8-bitni mikrokontroler s precej različnimi vhodi in izhodi, a le 28 (DIP verzija) priključki.<br>
+					Posledično je mnogo priključkov multifunkcijskih, kar avtomatično pomeni, da jih moramo ustrezno konfigurirati.
+					Čipu moramo npr. “povedati” ali želimo priključek uporabiti kot digitalni vhod, izhod ali TX priključek serijskega vmesnika. </p>
+				</div>
+		</section>
+		<br><br><br>
+		<section>
+			<table class="content-table">
+				<thead>
+					<tr>
+						<th>Vrsta Aruina:</th>
+						<th>Opis Arduina:</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>ARDUINO UNO</td>
+						<td>Arduino UNO je mikrokrmilnik na matični plošči, ki jo lahko sprogramiramo s pomočjo programskih jezikov C in C++.<br>
+						Mikrokrmilnik je hkrati mogoče priključiti na raznovrstne analogne senzorje.</td>
+					</tr>
+					<tr>
+						<td>ARDUINO NANO</td>
+						<td>Arduino Nano je Arduino klasična plošča z najmanjšimi dimenzijami.<br>
+						Arduino Nano ima priključke za zatiče, ki omogočajo enostavno pritrditev na matično ploščo in ima priključek Mini-B USB.</td>
+					</tr>
+					<tr>
+						<td>ARDUINO MEGA</td>
+						<td>Arduino Mega 2560 je mikrokrmilniška plošča, ki temelji na ATmega2560.<br>
+						Ima 54 digitalnih vhodnih/izhodnih pinov, 16 analognih vhodov, 4 UART (strojna serijska vrata), 16 MHz kristalni oscilator, USB povezavo, napajalni priključek, ICSP glavo, in gumb za ponastavitev.<br>
+						Vsebuje vse potrebno za podporo mikrokrmilniku.</td>
+					</tr>
+					<tr>
+						<td>ARDUINO LEONARDO</d>
+						<td>Leonardo se od vseh prejšnjih plošč razlikuje po tem, da ima ATmega32u4 vgrajeno komunikacijo USB, ki odpravlja potrebo po sekundarnem procesorju.<br>
+						To omogoča, da se Leonardo prikaže povezanemu računalniku kot miška in tipkovnica, poleg navideznih (CDC) serijskih / COM vrat.</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<section class="zgodovina">
+					<div class="row">
+						<div class="zgodovina-col">
+							<img src="slike/15.jpg">
+							<div class="layer">
+								<h3>ARDUINO UNO</h3>
+							</div>
+						</div>
+						<div class="zgodovina-col">
+							<img src="slike/16.jpg">
+							<div class="layer">
+								<h3>ARDUINO MEGA</h3>
+							</div>
+						</div>
+						<div class="zgodovina-col">
+							<img src="slike/17.jpg">
+							<div class="layer">
+								<h3>ARDUINO LEONARDO</h3>
+							</div>
+						</div>
+						<div class="zgodovina-col">
+							<img src="slike/18.png">
+							<div class="layer">
+								<h3>ARDUINO NANO</h3>
+							</div>
+						</div>
+					</div>
+				</section>
+	</body>
+</html>
